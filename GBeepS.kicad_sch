@@ -2066,7 +2066,7 @@
   (symbol (lib_id "MCU_SiliconLabs:EFM8BB10F8G-A-QFN20") (at 161.29 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 01bb07b7-5eda-4da8-b61b-2d6248635b61)
-    (property "Reference" "U?" (id 0) (at 163.3094 186.8002 0)
+    (property "Reference" "U4" (id 0) (at 163.3094 186.8002 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 163.3094 189.3371 0)
@@ -2123,7 +2123,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 05455e94-9ecd-49d5-b958-baf1bc2953e8)
-    (property "Reference" "R?" (id 0) (at 139.9286 188.3953 0)
+    (property "Reference" "R4" (id 0) (at 139.9286 188.3953 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 139.9286 190.9322 0)
@@ -2142,7 +2142,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0a828075-2672-4a17-82d1-67934faa18df)
-    (property "Reference" "C?" (id 0) (at 130.5941 180.7816 0)
+    (property "Reference" "C10" (id 0) (at 130.5941 180.7816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (id 1) (at 130.5941 183.3185 0)
@@ -2212,7 +2212,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 160.02 242.57 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 10865ba6-2c6e-457d-9fe4-5e9252b545e5)
-    (property "Reference" "TP?" (id 0) (at 156.718 238.2352 90))
+    (property "Reference" "TP10" (id 0) (at 156.718 238.2352 90))
     (property "Value" "TestPoint" (id 1) (at 156.718 240.7721 90))
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 160.02 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2349,7 +2349,7 @@
   (symbol (lib_id "power:GND") (at 257.81 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 362bce95-f42a-4ba9-a3ee-b2ce531c8aa5)
-    (property "Reference" "#PWR?" (id 0) (at 257.81 54.61 0)
+    (property "Reference" "#PWR0120" (id 0) (at 257.81 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 257.81 52.7034 0))
@@ -2504,7 +2504,7 @@
   (symbol (lib_id "power:GND") (at 123.19 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5c3f7b5b-be71-4de8-a217-ecd631808e89)
-    (property "Reference" "#PWR?" (id 0) (at 123.19 227.33 0)
+    (property "Reference" "#PWR0123" (id 0) (at 123.19 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 123.19 225.4234 0))
@@ -2742,7 +2742,7 @@
   (symbol (lib_id "Device:R_Small") (at 121.92 196.85 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a325107e-2244-480d-9a7b-a81602988eaa)
-    (property "Reference" "R?" (id 0) (at 121.92 192.4136 90))
+    (property "Reference" "R5" (id 0) (at 121.92 192.4136 90))
     (property "Value" "1k" (id 1) (at 121.92 194.9505 90))
     (property "Footprint" "Yolo-GPS:R_0201_0603Metric_mod" (id 2) (at 121.92 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2776,7 +2776,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.81 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b0b0969f-60f9-48d0-9fb7-0fd9b1b264c0)
-    (property "Reference" "C?" (id 0) (at 260.1341 44.8916 0)
+    (property "Reference" "C9" (id 0) (at 260.1341 44.8916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (id 1) (at 260.1341 47.4285 0)
@@ -2795,7 +2795,7 @@
   (symbol (lib_id "Device:L_Small") (at 269.24 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b0b22e3b-ad5c-48af-acf9-0be147513efa)
-    (property "Reference" "L?" (id 0) (at 269.24 36.5592 90))
+    (property "Reference" "L1" (id 0) (at 269.24 36.5592 90))
     (property "Value" "" (id 1) (at 269.24 39.0961 90))
     (property "Footprint" "" (id 2) (at 269.24 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2810,7 +2810,7 @@
   (symbol (lib_id "power:GND") (at 161.29 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b6c5dab5-2177-4f56-9b1e-a65e67e58dc2)
-    (property "Reference" "#PWR?" (id 0) (at 161.29 228.6 0)
+    (property "Reference" "#PWR0122" (id 0) (at 161.29 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 161.29 226.6934 0))
@@ -2826,7 +2826,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 110.49 196.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd44b299-f41f-45ce-80f5-d42e57695646)
-    (property "Reference" "TP?" (id 0) (at 111.76 191.7731 0)
+    (property "Reference" "TP8" (id 0) (at 111.76 191.7731 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "" (id 1) (at 111.76 194.31 0)
@@ -2977,7 +2977,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 160.02 234.95 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cc85315b-c2b5-4ab6-b04b-b25efceb1c6b)
-    (property "Reference" "TP?" (id 0) (at 156.718 230.6152 90))
+    (property "Reference" "TP9" (id 0) (at 156.718 230.6152 90))
     (property "Value" "" (id 1) (at 156.718 233.1521 90))
     (property "Footprint" "" (id 2) (at 160.02 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3086,7 +3086,7 @@
   (symbol (lib_id "Jumper:SolderJumper_3_Open") (at 123.19 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ea34cbf2-7287-4306-95bf-f7314f330629)
-    (property "Reference" "JP?" (id 0) (at 121.5391 215.0653 90)
+    (property "Reference" "JP1" (id 0) (at 121.5391 215.0653 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 121.5391 217.6022 90)
@@ -3170,7 +3170,7 @@
   (symbol (lib_id "power:GND") (at 128.27 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fc9ade7d-5b1e-48de-b80b-526521f39a61)
-    (property "Reference" "#PWR?" (id 0) (at 128.27 190.5 0)
+    (property "Reference" "#PWR0121" (id 0) (at 128.27 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 128.27 188.5934 0))
@@ -3252,16 +3252,16 @@
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
     )
     (path "/362bce95-f42a-4ba9-a3ee-b2ce531c8aa5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/5c3f7b5b-be71-4de8-a217-ecd631808e89"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b6c5dab5-2177-4f56-9b1e-a65e67e58dc2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
     (path "/fc9ade7d-5b1e-48de-b80b-526521f39a61"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b6c5dab5-2177-4f56-9b1e-a65e67e58dc2"
+      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5c3f7b5b-be71-4de8-a217-ecd631808e89"
+      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
     (path "/7cdcb541-8b92-4799-8be1-cf2d204a844c"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3287,11 +3287,11 @@
     (path "/19b39529-918a-423a-9d1e-5b7e031461e9"
       (reference "C8") (unit 1) (value "1u") (footprint "Yolo-GPS:C_0201_0603Metric_mod")
     )
-    (path "/0a828075-2672-4a17-82d1-67934faa18df"
-      (reference "C?") (unit 1) (value "1u") (footprint "Yolo-GPS:C_0201_0603Metric_mod")
-    )
     (path "/b0b0969f-60f9-48d0-9fb7-0fd9b1b264c0"
-      (reference "C?") (unit 1) (value "1u") (footprint "Yolo-GPS:C_0201_0603Metric_mod")
+      (reference "C9") (unit 1) (value "1u") (footprint "Yolo-GPS:C_0201_0603Metric_mod")
+    )
+    (path "/0a828075-2672-4a17-82d1-67934faa18df"
+      (reference "C10") (unit 1) (value "1u") (footprint "Yolo-GPS:C_0201_0603Metric_mod")
     )
     (path "/ceb55e94-c665-4268-8d2a-eebc3d60110e"
       (reference "D1") (unit 1) (value "green") (footprint "LED_SMD:LED_0201_0603Metric")
@@ -3303,10 +3303,10 @@
       (reference "J1") (unit 1) (value "Ant") (footprint "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical")
     )
     (path "/ea34cbf2-7287-4306-95bf-f7314f330629"
-      (reference "JP?") (unit 1) (value "SolderJumper_3_Open") (footprint "")
+      (reference "JP1") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/b0b22e3b-ad5c-48af-acf9-0be147513efa"
-      (reference "L?") (unit 1) (value "L_Small") (footprint "")
+      (reference "L1") (unit 1) (value "L_Small") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
     (path "/a58d788e-812d-4265-9ab4-13d606180491"
       (reference "R1") (unit 1) (value "360R") (footprint "Yolo-GPS:R_0201_0603Metric_mod")
@@ -3318,10 +3318,10 @@
       (reference "R3") (unit 1) (value "2k7") (footprint "Yolo-GPS:R_0201_0603Metric_mod")
     )
     (path "/05455e94-9ecd-49d5-b958-baf1bc2953e8"
-      (reference "R?") (unit 1) (value "1k") (footprint "Yolo-GPS:R_0201_0603Metric_mod")
+      (reference "R4") (unit 1) (value "1k") (footprint "Yolo-GPS:R_0201_0603Metric_mod")
     )
     (path "/a325107e-2244-480d-9a7b-a81602988eaa"
-      (reference "R?") (unit 1) (value "1k") (footprint "Yolo-GPS:R_0201_0603Metric_mod")
+      (reference "R5") (unit 1) (value "1k") (footprint "Yolo-GPS:R_0201_0603Metric_mod")
     )
     (path "/26f76493-c2ff-4ccd-b390-3b39bf4f9305"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -3344,14 +3344,14 @@
     (path "/5a94a056-535a-4e4f-9440-8d4d5434f376"
       (reference "TP7") (unit 1) (value "Gnd") (footprint "Yolo-GPS:pad_1x1.5")
     )
-    (path "/10865ba6-2c6e-457d-9fe4-5e9252b545e5"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/bd44b299-f41f-45ce-80f5-d42e57695646"
-      (reference "TP?") (unit 1) (value "Buzz_in") (footprint "Yolo-GPS:pad_1x1.5")
+      (reference "TP8") (unit 1) (value "Buzz_in") (footprint "Yolo-GPS:pad_1x1.5")
     )
     (path "/cc85315b-c2b5-4ab6-b04b-b25efceb1c6b"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/10865ba6-2c6e-457d-9fe4-5e9252b545e5"
+      (reference "TP10") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/783ee3b3-a966-44bf-8463-a6b94b8c0e29"
       (reference "U1") (unit 1) (value "NCP160xMX") (footprint "Yolo-GPS:OnSemi-XDFN-4-1EP_1x1mm_P0.65mm_EP0.52x0.52mm")
@@ -3363,7 +3363,7 @@
       (reference "U3") (unit 1) (value "ZOE-M8Q") (footprint "Yolo-GPS:ZOE-M8")
     )
     (path "/01bb07b7-5eda-4da8-b61b-2d6248635b61"
-      (reference "U?") (unit 1) (value "EFM8BB51F16G-A-QFN20") (footprint "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm")
+      (reference "U4") (unit 1) (value "EFM8BB51F16G-A-QFN20") (footprint "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm")
     )
     (path "/c7bd9338-9aed-41bb-820b-e4615e63ea41"
       (reference "Y1") (unit 1) (value "ECS-.327-7-16-TR3") (footprint "Crystal:Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm")
